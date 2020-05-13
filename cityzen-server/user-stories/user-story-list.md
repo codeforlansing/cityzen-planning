@@ -1,8 +1,8 @@
 ### Cityzen Sever User story list
-- the API server should be able to connect to a backend storage solution (through an ORM?) currently SQL backed by sqlite3
-- the API server should pull currently open tasks from a backend storage solution (through an ORM?) currently SQL backed by sqlite3
-- given an authorized client, with a user token, I should be able to accept a task for that user
-- given an authorized client, with a user token and acceptied task, I should be able to mark the task completed by that user
+- [it should connect to a persistent storage solution](connect-to-persistent-storage.md) 
+- [given a client request, it should be able to return a list of tasks](client-pull-task-list.md)
+- [mark a task accepted by a user](user-accepts-task.md)
+- [mark the task completed by user](user-marks-task-complete.md)
 - when a task is accepted by a user and email notifications are configured, generate an email to the configured address that includes: user_id, task, date
 - if a user that does not exist tries to accept a task, when unauthenticated user actions are configured for an organization, a user should be created with the provided user_id and any necessary information 
 - if a user that does not exist tries to accept a task, when unauthenticated user actions are not configured for an organization, it should not be accepted

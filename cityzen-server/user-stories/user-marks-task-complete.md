@@ -1,0 +1,1 @@
+given an authorized client, with a user with an acceptied task, and a valid request: mark the task completed by that user
