@@ -5,15 +5,15 @@ This project is intended to be used for planning the Cityzen project, a Code for
 ## [Cityzen server](https://github.com/codeforlansing/cityzen-server) planning 
 The [Overall concept](cityzen-server/overall-concept-notes.md) is an API server that functions as the backend resource for any number of client types
 - [User story listing](cityzen-server/user-story-list.md)
-- [User Story cards](ityzen-server/user-stories/)
+- [User Story cards](cityzen-server/user-stories/)
 
-## [Cityzen Client](cityzen-client)
+## [Cityzen Client](cityzen-client/overall-concept-notes.md)
 [Overall concept](cityzen-client/overall-concept-notes.md) is a client that accesses the Cityzen Server API.  
-### Vue based web client
+### [Vue based web client](https://github.com/codeforlansing/cityzen-client-vue)
 - [User story listing](cityzen-client/vue-client-user-stories/user-story-list.md)
-- [User story cards](cityzen-client/vue-client-user-stories)
+- [User story cards](cityzen-client/vue-client-user-stories/)
 
-## [Cityzen Documentatian](cityzen-docs/) planning
+## [Cityzen Documentation](https://github.com/codeforlansing/cityzen) planning
 
 
 ### Questions
