@@ -1,0 +1,17 @@
+### Cityzen Sever User story list
+- the API server should be able to connect to a backend storage solution (through an ORM?) currently SQL backed by sqlite3
+- the API server should pull currently open tasks from a backend storage solution (through an ORM?) currently SQL backed by sqlite3
+- given an authorized client, with a user token, I should be able to accept a task for that user
+- given an authorized client, with a user token and acceptied task, I should be able to mark the task completed by that user
+- when a task is accepted by a user and email notifications are configured, generate an email to the configured address that includes: user_id, task, date
+- if a user that does not exist tries to accept a task, when unauthenticated user actions are configured for an organization, a user should be created with the provided user_id and any necessary information 
+- if a user that does not exist tries to accept a task, when unauthenticated user actions are not configured for an organization, it should not be accepted
+- the server should be configurable by global admins (client side?)
+    - add and configure organizations
+    - add global admin users
+    - configure defaults (pre install config?)
+- the server should be configurable for each organization
+    - to accept unauthenticated user actions for an organization
+    - what are acceptable user_id formats (email, alphanumeric, special_characters, etc)
+    - to send email upon acceptance or completion of tasks
+    - admin users for each organization
