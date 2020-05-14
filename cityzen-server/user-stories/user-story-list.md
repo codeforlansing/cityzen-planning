@@ -3,15 +3,10 @@
 - [given a client request, it should be able to return a list of tasks](client-pull-task-list.md)
 - [mark a task accepted by a user](user-accepts-task.md)
 - [mark the task completed by user](user-marks-task-complete.md)
-- when a task is accepted by a user and email notifications are configured, generate an email to the configured address that includes: user_id, task, date
-- if a user that does not exist tries to accept a task, when unauthenticated user actions are configured for an organization, a user should be created with the provided user_id and any necessary information 
-- if a user that does not exist tries to accept a task, when unauthenticated user actions are not configured for an organization, it should not be accepted
-- the server should be configurable by global admins (client side?)
-    - add and configure organizations
-    - add global admin users
-    - configure defaults (pre install config?)
-- the server should be configurable for each organization
-    - to accept unauthenticated user actions for an organization
-    - what are acceptable user_id formats (email, alphanumeric, special_characters, etc)
-    - to send email upon acceptance or completion of tasks
-    - admin users for each organization
+- [email when a task is accepted, if configured](email-when-task-accepted.md)
+- [email when a task is completed, if configured](email-when-task-completed.md)
+- [create a user if needed, when configured for unauthenticated actions](create-user-if-needed-when-configured.md)
+- [should not accept a taks when unauthenticated user actions are not configured for an organization](task-not-accepted-if-authenticated-only-configured.md) 
+- [configurable to allow only authenticated user actions](configure-authenticated-users-only.md)
+- [acceptable user_id formats should be configurable](configure-acceptable-user-id.md) 
+- [able to create new users](create-new-users.md)
