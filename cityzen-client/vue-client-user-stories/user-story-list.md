@@ -1,11 +1,14 @@
 
 ### webclient (unauthenticated users)
-- as a user, I should be able to register for an account
-- as a user, I should be able to authenticate internally to client on local network
-- as a user, I should be able to authenticate from the internet
-- as a user, I should be able to see available volunteer tasks
-- as a user, I should be able to accept a task with a user_code, username, or email when unauthenticated user actions are allowed
-- as a user, I should be able to mark a task complete with a user code (and hours worked?) when unauthenticated user actions are allowed
+#### unauthenticated users
+##### when unauthenticated actions are allowed
+- [able to see available volunteer tasks](unauthenticated-list-available-tasks.md)
+- [accept task with user_code, username, or email](unauthenticated-accept-task.md)
+- [mark task complete with a user code](unauthenticated-mark-task-complete.md)
+##### when configured for authenticated users only
+- [register for an account](register-new-user-account.md)
+- [authenticate internally to client on local network](authenticate-on-local-network.md)
+- [users should be able to authenticate from the internet, when configured](authenticate-from-internet.md)
 #### authenticated users 
 - definition of authenticated could be site/implementation specific (full login, user code/email, token, etc)
 - as an authenticated user, I should be able to accept a task (should it add user acceptance to backend?)
