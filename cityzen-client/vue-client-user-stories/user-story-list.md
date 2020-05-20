@@ -11,14 +11,14 @@
 - [users should be able to authenticate from the internet, when configured](authenticate-from-internet.md)
 #### authenticated users 
 - definition of authenticated could be site/implementation specific (full login, user code/email, token, etc)
-- as an authenticated user, I should be able to accept a task (should it add user acceptance to backend?)
-- as an authenticated user, with an accepted task, I should be able to mark the task complete (should hours be added here?)
-- as an authenticated user, I should be able to list my accepted/completed tasks
+- [authenticated user should be able to accept a task](authenticated-user-accept-task.md)
+- [authenticated user should be able to mark accepted task complete](authenticated-user-mark-accepted-task-complete.md)
+- [authenticated user should be able to list accepted/completed tasks](authenticated-user-list-accepted-complete-tasks.md)
 #### admin users
-- as an admin user, I should be able to see a list of users
-- as an admin user, with a user record, I should be able to edit notes for the user
-- as an admin user, I should be able to see accepted/completed tasks for a specific user
-- as an admin user, with a user that has a completed task, I should be able to mark work approved
+- [admin user should be able to list users](admin-user-list-users.md)
+- [admin user should be able to edit notes for a valid user](admin-user-edit-notes-on-user.md)
+- [admin user should be able to list tasks for a specific user](admin-user-list-tasks-single-user.md)
+- [admin user should be able to mark completed task approved for a user](admin-user-marks-completed-task-approved.md)
 - as an admin user, with a user that has a completed task, I should be able to make notes on the user_task
 - as an admin user, I should be able to get a report of all users and their accepted/completed tasks for a time period
 - as an admin user, I should be able to get a report of a specific user's accepted/completed tasks for a time period
