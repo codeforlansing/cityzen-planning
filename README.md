@@ -4,7 +4,7 @@ This project is intended to be used for planning the Cityzen project, a Code for
 
 ## [Cityzen server](https://github.com/codeforlansing/cityzen-server) planning 
 The [overall concept](cityzen-server/README.md) is an API server that functions as the backend resource for any number of client types
-- [User story listing](cityzen-server/README.md#server-user-stories)
+- [User story listing](cityzen-server/README.md#user-stories)
 - [User Story cards](cityzen-server/user-stories/)
 
 ## [Cityzen Client](https://github.com/codeforlansing/cityzen-client-vue)

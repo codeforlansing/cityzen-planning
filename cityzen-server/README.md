@@ -5,7 +5,7 @@ This is a server side API that multiple client types can interact with
 - projects/tasks should have: (title, description, requirements or pre-requisites, expected completion time?, task contact, source-project)
 - repeatable/ongoing tasks? maintain at backend level or provide capability to set recurring schedules?
 - minimize user information stored to maximum extent possible
-### [User Stories](#server-user-stories)
+### [User Stories](#user-stories)
 - [connect to persistent storage ](server-user-stories/connect-to-persistent-storage.md) 
 - [client pull a list of tasks](server-user-stories/client-pull-task-list.md)
 - [mark a task accepted by a user](server-user-stories/user-accepts-task.md)
