@@ -6,7 +6,7 @@
     - accept task and track without sign-in (user token/id?) some tracking is needed for reporting
 - task acceptance should be allowed without login?
 - should entry of a valid user token be a form of authentication?  ie: no 'unauthenticated' user actions, just configure what is needed to be 'authenticated'
-### [Client User Stories](#client-user-stories)
+### [Client User Stories](#user-stories)
 ### Vue webclient user stories
 #### unauthenticated users
 ##### when unauthenticated actions are allowed
