@@ -1,6 +1,8 @@
 ### Title:
 - Priority:
 - Estimate:
+- Assinged:
+- Status:
 #### Details:
 - As a <type_of_user>
 - I want to <perform_some_task>
@@ -9,4 +11,6 @@
 - [ ] Given <some_context>, when <some_action_carried_out>, Then:
   - [ ] <observable_outcome_1>
   - [ ] <observable_outcome_2>
+#### Notes
+-
   

@@ -1,6 +1,8 @@
 ### Title: An admin user can make completed task notes
 - Priority:
 - Estimate:
+- Assinged:
+- Status:
 #### Details:
 - As an <admin_user>
 - I want to make notes on a completed task
