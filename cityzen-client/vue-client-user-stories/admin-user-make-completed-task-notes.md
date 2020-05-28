@@ -9,4 +9,3 @@
 - [ ] Given a valid admin user and a task marked complete by a user, when I add notes to that task, Then:
   - [ ] Those notes are shown when looking at the task details
   - [ ] The user's list of tasks show that notes have been made on the task
-  
