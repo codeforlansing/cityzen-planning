@@ -7,7 +7,7 @@ This is a server side API that multiple client types can interact with
 - minimize user information stored to maximum extent possible
 ### [User Stories](#user-stories)
 - [connect to persistent storage ](server-user-stories/connect-to-persistent-storage.md) 
-- [client pull a list of tasks](server-user-stories/client-pull-task-list.md)
+- [Client retrieves current list of tasks](server-user-stories/client-pull-task-list.md)
 - [mark a task accepted by a user](server-user-stories/user-accepts-task.md)
 - [mark the task completed by user](server-user-stories/user-marks-task-complete.md)
 - [email when a task is accepted](server-user-stories/email-when-task-accepted.md)
