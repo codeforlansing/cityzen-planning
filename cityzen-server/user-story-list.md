@@ -1,0 +1,12 @@
+### Cityzen Sever User story list
+- [it should connect to a persistent storage solution](connect-to-persistent-storage.md) 
+- [given a client request, it should be able to return a list of tasks](client-pull-task-list.md)
+- [mark a task accepted by a user](user-accepts-task.md)
+- [mark the task completed by user](user-marks-task-complete.md)
+- [email when a task is accepted, if configured](email-when-task-accepted.md)
+- [email when a task is completed, if configured](email-when-task-completed.md)
+- [create a user if needed, when configured for unauthenticated actions](create-user-if-needed-when-configured.md)
+- [should not accept a taks when unauthenticated user actions are not configured for an organization](task-not-accepted-if-authenticated-only-configured.md) 
+- [configurable to allow only authenticated user actions](configure-authenticated-users-only.md)
+- [acceptable user_id formats should be configurable](configure-acceptable-user-id.md) 
+- [able to create new users](create-new-users.md)
