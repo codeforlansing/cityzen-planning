@@ -28,9 +28,6 @@ definition of authenticated could be site/implementation specific (vue-client-us
 - [admin user should be able to list tasks for a specific user](vue-client-user-stories/admin-user-list-tasks-single-user.md)
 - [admin user should be able to mark completed task approved for a user](vue-client-user-stories/admin-user-marks-completed-task-approved.md)
 - [admin user should be able to make notes on completed user task](vue-client-user-stories/admin-user-make-completed-task-notes.md)
-- as an admin user, I should be able to get a report of all users and their accepted/completed tasks for a time period
-- as an admin user, I should be able to get a report of a specific user's accepted/completed tasks for a time period
-- as an admin user, I should be able to add a task (depending on site/implementation?)
-#### client/api interaction
-- when a user accepts a task, the backend should be updated with the assignment
-- when a task is marked complete, the backend should be updated with the status
+- [admin user gets a list of users with accepted/completed tasks](vue-client-user-stories/admin-get-all-users-all-tasks-report)
+- [admin user gets a list of a specific user's accepted/completed tasks in a specified time period](vue-client-user-stories/admin-user-get-user-tasks-time-block.md)
+- [admin user add a task](vue-client-user-stories/admin-user-manually-add-task.md) 
