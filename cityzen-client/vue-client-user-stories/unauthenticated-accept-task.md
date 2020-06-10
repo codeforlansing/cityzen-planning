@@ -4,3 +4,4 @@ as a user, when unauthenticated user actions are allowed
   - user_code
   - username
   - email 
+the backend should be updated with the assignment
